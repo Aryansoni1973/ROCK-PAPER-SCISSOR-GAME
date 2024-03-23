@@ -8,16 +8,15 @@ This is a simple rock-paper-scissors game implemented using HTML, CSS, and JavaS
 - [Features](#features)
 - [How to Play](#how-to-play)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [Contact](#Contact)
-- [License](#License)
+- [Contact](#contact)
+- [License](#license)
 
 ## Demo
 
 ![cover](/images/rps-cover.png)
 
-You can try the game live [here](#)!
+You can try the game live [here](https://aryansoni-git.github.io/odin-RockPaperScissors/)!
 
 ## Features
 

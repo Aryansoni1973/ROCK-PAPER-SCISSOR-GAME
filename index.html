@@ -4,51 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🍑 Rock Paper Scissors</title>
-    <style>
-        body {
-            background-color: bisque;
-            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, 'Courier New', Courier, monospace;
-        }
-
-        .container {
-            border: 1px solid black;
-            margin: 100px 100px 0px 100px;
-            text-align: center;
-            border-radius: 0.5rem;
-        }
-
-        button {
-            font-size: 4.5rem;
-            padding: 0.5rem;
-            margin: 15px;
-            cursor: pointer;
-            border-radius: 1rem;
-        }
-
-        button:hover {
-            font-size: 5rem;
-            padding: 1rem;
-        }
-
-        p {
-            background-color: beige;
-            font-size: 2rem;
-        }
-    </style>
+    <title>Rock Paper Scissors</title>
+    <link rel="shortcut icon" href="images/pngwing.com.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Rock Paper Scissors</h1>
-        <button id="rock">✊</button>
-        <button id="paper">✋</button>
-        <button id="scissor">✌️</button>
-        <br>
-        <p id="result"></p>
+    <div id="container">
+        <div id="scores-container">
+            <p class="text"> Computer: <strong id="computer-score">0</strong></p>
+            <p class="text"> You: <strong id="player-score">0</strong></p>
+        </div>
+        <div id="buttons-container">
+            <button id="rock">✊</button>
+            <button id="paper">✋</button>
+            <button id="scissor">✌️</button>
+        </div>
+        <div id="results-container">
+            <p class="text">You choose <strong id="player-choice"></strong></p>
+            <p class="text">Computer choose <strong id="computer-choice"></strong></p>
+            <br>
+            <p class="text" id="result">Play 5 Rounds</p>
+        </div>
     </div>
-
+    <div id="play-again" style="display: none;">
+        <p id="winner"></p>
+        <button id="play-again-btn">
+            Play Again</button>
+    </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
